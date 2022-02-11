@@ -1,0 +1,363 @@
+ .main{
+  background-image: url("../img/Slider\ II-02.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+.navbar-toggler{
+  color: black !important;
+      background-color: gray!important; 
+    border: 1px solid black;
+}
+
+
+.navbar-nav  .nav-item .nav-link{
+  color: #201755;
+  font-family: 'Roboto Mono', monospace;
+}
+.navbar-nav  .dropdown{
+  color: #201755;
+  font-family: 'Roboto Mono', monospace;
+}
+.navbar-nav  .dropdown-item{
+  color: #201755;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.navbar-nav  .nav-item .nav-link:hover
+ {
+  color:#443885;
+  text-decoration: none;
+}
+.navbar-nav  .dropdown-item:hover
+ {
+  color:#443885;
+  text-decoration: none;
+}
+
+
+.navbar-nav  .dropdown-menu{
+  box-shadow: 0 4px 8px 0 rgba(165,154,224,0.7);
+}
+
+
+
+
+.faq-section {
+  background: #fdfdfd;
+  min-height: 100vh;
+  padding: 10vh 0 0;
+  width: 100%;
+}
+.faq-title h2 {
+position: relative;
+margin-bottom: 45px;
+display: inline-block;
+font-weight: 600;
+line-height: 1;
+color:#201755;
+}
+.faq-title h2::before {
+  content: "";
+  position: absolute;
+  left: 50%;
+  width: 60px;
+  height: 2px;
+  background: #201755;
+  bottom: -25px;
+  margin-left: -30px;
+}
+.faq-title p {
+padding: 0 190px;
+margin-bottom: 10px;
+}
+
+.faq {
+background: #FFFFFF;
+box-shadow: 10px 10px 48px 10px rgba(8, 38, 206, 0.2);
+border-radius: 4px;
+}
+
+.faq .card {
+border: none;
+background: none;
+border-bottom: 1px dashed #CEE1F8;
+}
+
+.faq .card .card-header {
+padding: 0px;
+border: none;
+background: none;
+-webkit-transition: all 0.3s ease 0s;
+-moz-transition: all 0.3s ease 0s;
+-o-transition: all 0.3s ease 0s;
+transition: all 0.3s ease 0s;
+}
+
+.faq .card .card-header:hover {
+  background: rgba(19, 4, 105, 0.2);
+  /* background: #aa9cfc; */
+  padding-left: 10px;
+}
+.faq .card .card-header .faq-title {
+width: 100%;
+text-align: left;
+padding: 0px;
+padding-left: 30px;
+padding-right: 30px;
+font-weight: 400;
+font-size: 15px;
+letter-spacing: 1px;
+color: #3B566E;
+text-decoration: none !important;
+-webkit-transition: all 0.3s ease 0s;
+-moz-transition: all 0.3s ease 0s;
+-o-transition: all 0.3s ease 0s;
+transition: all 0.3s ease 0s;
+cursor: pointer;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.faq .card .card-header .faq-title .badge {
+display: inline-block;
+width: 20px;
+height: 20px;
+line-height: 14px;
+float: left;
+-webkit-border-radius: 100px;
+-moz-border-radius: 100px;
+border-radius: 100px;
+text-align: center;
+background: #201755;
+color: #fff;
+font-size: 12px;
+margin-right: 20px;
+}
+/* .faq .card .card-header .faq-title .badge1 {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 14px;
+  float: left;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  text-align: center;
+  background: rgb(25, 240, 25);
+  color: #fff;
+  font-size: 12px;
+  margin-right: 20px;
+  } */
+
+.faq .card .card-header .faq-title .badge i{
+  color:#fff;
+}
+
+.faq .card .card-body {
+padding: 30px;
+padding-left: 35px;
+padding-bottom: 16px;
+font-weight: 400;
+font-size: 16px;
+color: #6F8BA4;
+line-height: 10px;
+letter-spacing: 1px;
+border-top: 1px solid #F3F8FF;
+}
+
+.faq .card .card-body p {
+margin-bottom: 14px;
+}
+
+@media (max-width: 991px) {
+.faq {
+  margin-bottom: 30px;
+}
+.faq .card .card-header .faq-title {
+  line-height: 26px;
+  margin-top: 10px;
+}
+
+
+}
+
+.productdesc{
+  box-shadow: 5px 10px 8px 10px #888888;
+}
+.productdesc p {
+  font-family: 'Roboto', sans-serif;
+}
+.productdesc h4{
+ border-bottom :2px solid #201755;
+}
+
+.productname{
+ font-family: 'Roboto', sans-serif;
+}
+
+.productprice{
+  color:rgba(83, 6, 6);
+  font-size: 20px;
+}
+/* .productdesc p .dropright .dropdown-toggle{
+    background-color:rgba(83, 6, 6);
+  color:#fff;
+} */
+
+.buybtn{
+  margin-left: 5px;
+}
+
+
+
+
+.wrapper {
+  margin: 0 auto;
+  /* width: 80%; */
+  text-align: center;
+}
+
+.image-gallery {
+  margin: 0 auto;
+  display: table;
+}
+
+.primary,
+.thumbnails {
+  display: table-cell;
+}
+
+.thumbnails {
+  width: 200px;
+}
+
+.primary {
+  width: 600px;
+  height: 400px;
+  background-color: #cccccc;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.thumbnail:hover .thumbnail-image, .selected .thumbnail-image {
+  border: 4px solid #201755;
+}
+
+.thumbnail-image {
+  width: 150px;
+  height: 150px;
+  margin: 20px auto;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: 4px solid transparent;
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+  .primary {
+    width: 600px;
+    height: 310px;
+    background-color: #cccccc;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .thumbnail-image {
+    width: 80px;
+    height: 80px;
+    margin: 20px auto;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border: 4px solid transparent;
+  }
+}
+
+
+
+
+.clearfix {
+  clear:both;
+}
+
+.text-center {text-align:center;}
+
+a {
+  color: tomato;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2196f3;
+}
+
+pre {
+display: block;
+padding: 9.5px;
+margin: 0 0 10px;
+font-size: 13px;
+line-height: 1.42857143;
+color: #333;
+word-break: break-all;
+word-wrap: break-word;
+background-color: #F5F5F5;
+border: 1px solid #CCC;
+border-radius: 4px;
+}
+
+
+.success-box {
+  margin:50px 0;
+  padding:10px 10px;
+  border:1px solid #eee;
+  background:#f9f9f9;
+}
+
+.success-box img {
+  margin-right:10px;
+  display:inline-block;
+  vertical-align:top;
+}
+
+.success-box > div {
+  vertical-align:top;
+  display:inline-block;
+  color:#888;
+}
+
+
+
+/* Rating Star Widgets Style */
+.rating-stars ul {
+  list-style-type:none;
+  padding:0;
+  
+  -moz-user-select:none;
+  -webkit-user-select:none;
+}
+.rating-stars ul > li.star {
+  display:inline-block;
+  
+}
+
+/* Idle State of the stars */
+.rating-stars ul > li.star > i.fa {
+  font-size:2.5em; /* Change the size of the stars */
+  color:#ccc; /* Color on idle state */
+}
+
+/* Hover state of the stars */
+.rating-stars ul > li.star.hover > i.fa {
+  color:#FFCC36;
+}
+
+/* Selected state of the stars */
+.rating-stars ul > li.star.selected > i.fa {
+  color:#FF912C;
+}
+
